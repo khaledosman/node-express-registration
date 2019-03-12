@@ -49,7 +49,7 @@ router.post('/register', (req, res) => {
     }).save()
       .then(() => {
         const message = {
-          from: process.envSENDER_MAIL,
+          from: process.env.SENDER_MAIL,
           to: email,
           subject: 'Verify your email',
           html: `<div>Please click on this link to verify your email <a href="${verificationUrl}" target="_blank"> ${verificationUrl}</a></div>`

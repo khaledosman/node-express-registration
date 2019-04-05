@@ -10,10 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "dotenv": "^6.2.0",
+    "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "mongoose": "^5.4.19",
-    "nodemailer": "^5.1.1",
+    "mongoose": "^5.4.22",
+    "nodemailer": "^6.0.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
